@@ -1,0 +1,59 @@
+{% extends 'store/base.html' %}
+{% load static %}
+
+{% block active1 %}class="nav-item"{% endblock active1 %}
+{% block active2 %}class="nav-item"{% endblock active2 %}
+{% block active4 %}class="nav-item "{% endblock active4 %}
+{% block active7 %}class="nav-item "{% endblock active7 %}
+{% block active8 %}class="nav-item active"{% endblock active8 %}
+
+
+{% block content %}
+
+{% block banniere %}
+<section class="page-title bg-1">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block text-center">
+                    <span class="text-white">Découvrez l'ensemble de nos réalisations</span>
+                    <h1 class="text-capitalize mb-5 text-lg">Gallerie</h1>
+
+                    <!-- <ul class="list-inline breadcumb-nav">
+              <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
+              <li class="list-inline-item"><span class="text-white">/</span></li>
+              <li class="list-inline-item"><a href="#" class="text-white-50">All Doctors</a></li>
+            </ul> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock banniere %}
+<br><br><br>
+<br><br><br>
+
+
+
+<!-- Gallery -->
+<div class="container">
+<div class="row Gallery">
+  {% for image in Gallerie %}
+    <a class="col-lg-4 col-md-12 mb-4 mb-lg-0 " href="{{image.images.url}}">
+      <img
+        src="{{image.images.url}}"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="{{image.nom}}"
+      />
+    </a>
+    {% endfor %}
+    
+
+
+
+  </div> 
+</div>
+ 
+
+{% endblock content %}
