@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-        'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -145,3 +144,4 @@ EMAIL_USE_TLS = True
 # google code : mwpzojuwkcpdkznh Moubarabenon@gmail.om
 #email : empreintescom123@gmail.com
 #email pawd: empreintescom123@_
+# PDGEmpreintes.com0000
