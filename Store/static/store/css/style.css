@@ -514,7 +514,7 @@ a:focus {
 }
 
 .bg-1 {
-  background: url("../images/empreintes/newgars.jpg") no-repeat 50% 50%;
+  background: url("../images/empreintes/nouvgars.jpg") no-repeat 50% 50%;
   background-size: cover;
   position: relative;
 }
@@ -523,7 +523,7 @@ a:focus {
   position: relative;
   overflow: hidden;
   background: #fff;
-  background: url("../images/empreintes/gars3.jpg") no-repeat;
+  background: url("../images/empreintes/nouvgars.jpg") no-repeat;
   background-size: cover;
   min-height: 550px;
 }
@@ -567,7 +567,7 @@ a:focus {
   .banner {
     min-height: 450px;
     /* background: #fff !important; */
-    background: url("../images/empreintes/gars3.jpg") no-repeat;
+    /* background: url("../images/empreintes/597X480.jpg") no-repeat; */
   }
 }
 @media (max-width: 400px) {
@@ -578,7 +578,7 @@ a:focus {
   .banner {
     min-height: 450px;
     /* background: #fff !important; */
-    background: url("../images/empreintes/plan3.jpg") no-repeat;
+    /* background: url("../images/empreintes/Gars123.jpg") no-repeat; */
   }
 }
 @media (max-width: 768px) {
@@ -586,16 +586,16 @@ a:focus {
     font-size: 56px;
     line-height: 70px;
   }
-  .banner {
+  /* .banner { */
     /* background: #fff !important; */
-    background: url("../images/empreintes/gourde2.jpg") no-repeat;
-  }
+    /* background: url("../images/empreintes/Gars123.jpg") no-repeat; */
+  /* } */
 }
 @media (max-width: 992px) {
-  .banner {
+  /* .banner { */
     /* background: #fff !important; */
-    background: url("../images/empreintes/thermos.jpg") no-repeat;
-  }
+    /* background: url("../images/empreintes/nouvgars.jpg") no-repeat; */
+  /* } */
 }
 .about-img img {
   border-radius: 5px;
@@ -604,7 +604,7 @@ a:focus {
 
 .award-img {
   height: 120px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   align-items: center;
   display: flex;
   justify-content: center;
